@@ -11,10 +11,10 @@ const Welcome = () => {
             <Card style={{ maxWidth: "800px" }}>
                 <CardContent sx={{ flex: 1 }}>
                     <Typography component="h1" variant="h4" style={{ textAlign: "center", marginBottom: "15px" }}>
-                        Bienvenue dans la base de données Transplant-Action.
+                        Bienvenue dans la base de données <br> Transplant-Action.
                     </Typography>
                     <Typography component="h2" variant="h5" style={{ textAlign: "center", marginBottom: "15px" }}>
-                        Vous souhaitez trouver un donneur compatible pour Barak Obama
+                        Vous souhaitez trouver un donneur compatible pour le Docteur Carma Saha
                     </Typography>
                     <Typography style={{ textAlign: "center", marginBottom: "15px" }}>
                         <Button component={Link} to="/subject" variant="contained">Démarrer</Button>
