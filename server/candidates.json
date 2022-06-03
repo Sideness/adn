@@ -60,7 +60,7 @@
     {
         "id": 3,
         "name": "Dr Maya Curado",
-        "picture": "imgs/Maya.jpg",
+        "picture": "imgs/Maya.png",
         "gender": "female",
         "birthdate": "02/20/1989",
         "protein": [
