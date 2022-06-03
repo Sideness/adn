@@ -15,8 +15,8 @@
                 "value": "G"
             },
             {
-                "match": false,
-                "value": "R"
+                "match": true,
+                "value": "H"
             },
             {
                 "match": true,
@@ -36,12 +36,12 @@
         "birthdate": "01/20/2000",
         "protein": [
             {
-                "match": true,
-                "value": "M"
+                "match": false,
+                "value": "L"
             },
             {
-                "match": true,
-                "value": "Y"
+                "match": false,
+                "value": "B"
             },
             {
                 "match": false,
@@ -52,15 +52,15 @@
                 "value": "I"
             },
             {
-                "match": false,
-                "value": "T"
+                "match": true,
+                "value": "L"
             }
         ]
     },
     {
         "id": 3,
         "name": "Dr Maya Curado",
-        "picture": "imgs/Maya.png",
+        "picture": "imgs/Maya.jpg",
         "gender": "female",
         "birthdate": "02/20/1989",
         "protein": [
@@ -98,8 +98,8 @@
                 "value": "M"
             },
             {
-                "match": false,
-                "value": "D"
+                "match": true,
+                "value": "Y"
             },
             {
                 "match": false,
