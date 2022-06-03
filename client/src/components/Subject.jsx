@@ -118,7 +118,7 @@ const Subject = () => {
                             Séquence de protéine
                         </Typography>
                         <Typography align="center" style={{ marginBottom: "15px" }}>
-                            <TextField id="filled-basic" label="MRQH..." variant="filled" value={protein} onChange={(event) => { setProtein(event.target.value) }} />
+                            <TextField id="filled-basic" label="MRQHN..." variant="filled" value={protein} onChange={(event) => { setProtein(event.target.value) }} />
                         </Typography>
                         <Typography align="center">
                             <Button onClick={checkAnswers}>Vérifier</Button>
