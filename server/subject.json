@@ -3,5 +3,5 @@
     "birthdate": "04/08/1975",
     "protein": "XXXXX",
     "gender": "female",
-    "picture": "imgs/carma.png"
+    "picture": "public/imgs/carma.png"
 }
