@@ -4,7 +4,7 @@
         "name": "DR émilia caubert",
         "picture": "imgs/emilie.png",
         "gender": "female",
-        "birthdate": "12/13/1946",
+        "birthdate": "12/13/1956",
         "protein": [
             {
                 "match": true,
@@ -76,10 +76,10 @@
     },
     {
         "id": 4,
-        "name": "Tomas Parcker",
+        "name": "Thomas Parcker",
         "picture": "imgs/thomas.jpg",
         "gender": "male",
-        "birthdate": "03/21/1991",
+        "birthdate": "03/21/1961",
         "protein": [
             {
                 "match": true,
