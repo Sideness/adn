@@ -12,7 +12,11 @@
             },
             {
                 "match": false,
-                "value": "GR"
+                "value": "G"
+            },
+            {
+                "match": false,
+                "value": "R"
             },
             {
                 "match": true,
@@ -33,11 +37,19 @@
         "protein": [
             {
                 "match": true,
-                "value": "MY"
+                "value": "M"
+            },
+            {
+                "match": true,
+                "value": "Y"
             },
             {
                 "match": false,
-                "value": "WI"
+                "value": "W"
+            },
+            {
+                "match": false,
+                "value": "I"
             },
             {
                 "match": false,
@@ -87,7 +99,11 @@
             },
             {
                 "match": false,
-                "value": "GR"
+                "value": "D"
+            },
+            {
+                "match": false,
+                "value": "V"
             },
             {
                 "match": true,
