@@ -16,7 +16,8 @@ const SubjectSuccess = () => {
                     <Typography component="h2" variant="h5" style={{ textAlign: "center", marginBottom: "15px" }}>
                         Mais le temps presse et vous n'avez pas encore de donneur.<br/> 
                         Bien heureusement vous disposez de fiches patient avec les informations nécessaires.<br/>
-                        Malheureusement, un stagiaire passant par là les a égarées dans des magazines. A vous de les retrouver !
+                        Malheureusement, un stagiaire passant par là les a égarées dans des magazines. <br/>
+                        A vous de les retrouver !
                     </Typography>
                     <Typography style={{ textAlign: "center", marginBottom: "15px" }}>
                         <Button component={Link} to="/candidates" variant="contained">Liste des donneurs potentiels</Button>
