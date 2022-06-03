@@ -10,6 +10,17 @@ const FinalAnswer = () => {
     const [name, setName] = React.useState("");
     const [resultDisplayed, setResultDisplayed] = React.useState(false);
     const [imgUrl, setImgUrl] = React.useState("");
+    const [possibleAnswers, setCandidates] = React.useState([]);
+
+    React.useEffect(() => {
+        fetch('/candidates', {
+            method: 'GET',
+            mode: 'cors'})
+          .then((response) => response.json())
+          .then((candidates) => {
+              setCandidates(candidates);
+          });
+    }, []);
 
     function checkName() {
 
@@ -30,7 +41,6 @@ const FinalAnswer = () => {
               } else {
                 setImgUrl(process.env.PUBLIC_URL+"try-again.gif");
                 setResultDisplayed(true);
-                //TODO Display error message
               }
           });
     };
@@ -45,6 +55,12 @@ const FinalAnswer = () => {
                     <Typography component="h2" variant="h5" style={{ textAlign: "center", marginBottom: "15px" }}>
                         Entrez le nom du donneur ou de la donneuse. Soyez certain de votre choix, vous n'aurez pas de seconde chance !
                         Vérifiez donc bien l'orthographe.
+                    </Typography>
+                    <Typography component="h2" variant="h5" style={{ textAlign: "center", marginBottom: "15px" }}>
+                        Pour rappel, les candidates sont: {possibleAnswers.map(candidate => {
+                                return(<p>{candidate.name}</p>)
+                            }
+                        )}
                     </Typography>
                     <Typography component="h2" variant="h5" style={{ textAlign: "center", marginBottom: "15px" }}>
                         <TextField id="outlined-basic" label="Entrez le nom" variant="outlined" value={name} onChange={(event) => { setName(event.target.value) }} />

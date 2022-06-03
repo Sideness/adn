@@ -59,7 +59,7 @@ const Candidate = (props) => {
             <CardMedia
                 component="img"
                 alt=""
-                height="140"
+                height="200"
                 image={props.picture}
             />
             <CardContent>
