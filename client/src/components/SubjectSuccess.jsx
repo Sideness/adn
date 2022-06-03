@@ -11,11 +11,11 @@ const SubjectSuccess = () => {
             <Card style={{ maxWidth: "800px" }}>
                 <CardContent sx={{ flex: 1 }}>
                     <Typography component="h1" variant="h4" style={{ textAlign: "center", marginBottom: "15px" }}>
-                        Vous avez réussi à décoder la séquence HLA de Barack Obama !
+                        Vous avez réussi à décoder <br/> la séquence HLA du Dr Carma SAHA !
                     </Typography>
                     <Typography component="h2" variant="h5" style={{ textAlign: "center", marginBottom: "15px" }}>
-                        Mais le temps presse et vous n'avez pas encore de donneur. 
-                        Bien heureusement vous disposez de fiches patient avec les informations nécessaires.
+                        Mais le temps presse et vous n'avez pas encore de donneur.<br/> 
+                        Bien heureusement vous disposez de fiches patient avec les informations nécessaires.<br/>
                         Malheureusement, un stagiaire passant par là les a égarées dans des magazines. A vous de les retrouver !
                     </Typography>
                     <Typography style={{ textAlign: "center", marginBottom: "15px" }}>
