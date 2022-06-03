@@ -25,7 +25,7 @@ function App() {
       <AppBar position="relative">
         <Toolbar>
           <Typography variant="h6" color="inherit" noWrap>
-            ADN - Il faut sauver Barack Obama!
+            ADN - Il faut sauver le Docteur Carma Saha!
           </Typography>
         </Toolbar>
       </AppBar>
