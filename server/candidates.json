@@ -7,11 +7,11 @@
         "birthdate": "12/13/1946",
         "protein": [
             {
-                "match": false,
+                "match": true,
                 "value": "M"
             },
             {
-                "match": true,
+                "match": false,
                 "value": "GR"
             },
             {
@@ -19,7 +19,7 @@
                 "value": "K"
             },
             {
-                "match": true,
+                "match": false,
                 "value": "P"
             }
         ]
@@ -86,7 +86,7 @@
                 "value": "M"
             },
             {
-                "match": true,
+                "match": false,
                 "value": "GR"
             },
             {
@@ -94,7 +94,7 @@
                 "value": "K"
             },
             {
-                "match": true,
+                "match": false,
                 "value": "P"
             }
         ]
