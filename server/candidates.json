@@ -2,7 +2,7 @@
     {
         "id": 1,
         "name": "Dr Émilia Caubert",
-        "picture": "imgs/emilie.png",
+        "picture": "imgs/Emilia.png",
         "gender": "female",
         "birthdate": "12/13/1956",
         "protein": [
@@ -31,7 +31,7 @@
     {
         "id": 2,
         "name": "Léon Patounec",
-        "picture": "imgs/leon.png",
+        "picture": "imgs/Leon.png",
         "gender": "male",
         "birthdate": "01/20/2000",
         "protein": [
@@ -60,7 +60,7 @@
     {
         "id": 3,
         "name": "Dr Maya Curado",
-        "picture": "imgs/maya.jpg",
+        "picture": "imgs/Maya.jpg",
         "gender": "female",
         "birthdate": "02/20/1989",
         "protein": [
@@ -89,7 +89,7 @@
     {
         "id": 4,
         "name": "Thomas Parcker",
-        "picture": "imgs/thomas.jpg",
+        "picture": "imgs/Thomas.png",
         "gender": "male",
         "birthdate": "03/21/1961",
         "protein": [
