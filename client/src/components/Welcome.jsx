@@ -14,7 +14,7 @@ const Welcome = () => {
                         Bienvenue dans la base de données <br /> Transplant-Action.
                     </Typography>
                     <Typography component="h2" variant="h5" style={{ textAlign: "center", marginBottom: "15px" }}>
-                        Vous souhaitez trouver un donneur compatible pour le Docteur Carma Saha
+                        Vous souhaitez trouver un donneur compatible <br /> pour le Docteur Carma Saha
                     </Typography>
                     <Typography style={{ textAlign: "center", marginBottom: "15px" }}>
                         <Button component={Link} to="/subject" variant="contained">Démarrer</Button>
